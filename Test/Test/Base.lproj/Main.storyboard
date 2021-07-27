@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DMR-lD-Gah">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ql-bR-uaA">
                                 <rect key="frame" x="186" y="437.5" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -26,10 +26,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="DMR-lD-Gah" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="D7l-HI-EaN"/>
-                            <constraint firstItem="DMR-lD-Gah" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wy7-gc-T4B"/>
+                            <constraint firstItem="7ql-bR-uaA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ESK-C5-ct5"/>
+                            <constraint firstItem="7ql-bR-uaA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pTD-k8-9j0"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="7ql-bR-uaA" id="5BD-u2-OYy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
